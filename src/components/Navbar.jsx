@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
-
+import Logo from "../images/log.png";
 const ModiNavbar = () => {
   return (
     <Navbar bg="dark" variant="dark" expand="lg" className="shadow">
@@ -9,7 +9,7 @@ const ModiNavbar = () => {
         {/* Logo a la izquierda */}
         <Navbar.Brand href="/">
           <img
-            src="../images/log.png"
+            src={Logo}
             width="40"
             height="40"
             className="d-inline-block align-top"
@@ -36,7 +36,9 @@ const ModiNavbar = () => {
               <Nav.Link>Contacto</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/login">
-              <Nav.Link><i className="bi bi-person-fill"></i></Nav.Link>
+              <Nav.Link>
+                <i className="bi bi-person-fill"></i>
+              </Nav.Link>
             </LinkContainer>
           </Nav>
         </Navbar.Collapse>
