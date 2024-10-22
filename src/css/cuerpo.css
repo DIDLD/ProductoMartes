@@ -1,0 +1,37 @@
+/* Estilos para las Cards con color dorado */
+.card-dorado {
+    background-color: #d4af37; /* Color dorado */
+    color: white; /* Texto blanco para mejor contraste */
+    border: none; /* Quita el borde por defecto */
+  }
+  
+  .card-dorado .card-title {
+    font-weight: bold; /* Haz que los títulos de las cards sean más resaltados */
+  }
+  
+  .card-dorado:hover {
+    background-color: #c59a2a; /* Cambia el tono dorado al hacer hover */
+    transition: background-color 0.3s ease; /* Suaviza la transición al hacer hover */
+  }
+  
+  /* Opcional: si quieres que los enlaces no tengan subrayado en toda la app */
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos para el botón dorado */
+.btn-dorado {
+    background-color: #d4af37; /* Color dorado para el botón */
+    border: none; /* Sin bordes */
+    color: white; /* Color del texto en blanco */
+  }
+  
+  .btn-dorado:hover {
+    background-color: #c59a2a; /* Cambia el tono dorado al hacer hover */
+    transition: background-color 0.3s ease; /* Suaviza la transición al hacer hover */
+  }
+  

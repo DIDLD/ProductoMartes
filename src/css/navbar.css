@@ -1,0 +1,6 @@
+.custom-logo {
+    width: 120px;
+    height: auto;
+    object-fit: contain;
+    max-height: 500px;
+}

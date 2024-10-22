@@ -1,0 +1,44 @@
+/* registro.css */
+
+*{
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+}
+body {
+    background-color: rgba(0, 0, 0, 0.85); /* Fondo negro suave */
+    color: #FFD700; /* Color dorado */
+  }
+  
+  h2 {
+    font-weight: 600; /* Negrita para el título */
+  }
+  
+  .text-gold {
+    color: #FFD700; /* Color dorado */
+  }
+  
+  input {
+    border-radius: 0.5rem; /* Bordes redondeados para los inputs */
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro para los inputs */
+    color: #FFD700; /* Texto dorado */
+  }
+  
+  input::placeholder {
+    color: rgba(255, 215, 0, 0.5); /* Color suave para el placeholder */
+  }
+  
+  input:focus {
+    border: 1px solid #FFD700; /* Borde dorado al enfocarse */
+    box-shadow: 0 0 5px rgba(255, 215, 0, 0.5); /* Sombra al enfocarse */
+  }
+  
+  button {
+    transition: background-color 0.3s ease; /* Suavizar el cambio de color */
+    color: black; /* Texto negro en el botón */
+  }
+  
+  button:hover {
+    background-color: #FFC107; /* Cambiar a un tono más claro al pasar el mouse */
+  }
+  
