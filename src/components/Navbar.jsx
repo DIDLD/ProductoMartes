@@ -6,7 +6,7 @@ const ModiNavbar = () => {
   return (
     <Navbar bg="dark" variant="dark" expand="lg" className="shadow">
       <Container>
-        {/* Logo a la izquierda */}
+        {}
         <Navbar.Brand href="/">
           <img
             src={Logo}
@@ -17,10 +17,10 @@ const ModiNavbar = () => {
           />
         </Navbar.Brand>
 
-        {/* Toggle button for mobile view */}
+        {}
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
-        {/* Asegúrate de que los enlaces estén a la derecha usando justify-content-end */}
+        {}
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav>
             <LinkContainer to="/">
@@ -35,9 +35,9 @@ const ModiNavbar = () => {
             <LinkContainer to="/contacto">
               <Nav.Link>Contacto</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/login">
-              <Nav.Link>
-                <i className="bi bi-person-fill"></i>
+            <LinkContainer to="/inicioS">
+              <Nav.Link to >
+              <i className="bi bi-person-fill"></i>
               </Nav.Link>
             </LinkContainer>
           </Nav>

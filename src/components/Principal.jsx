@@ -1,8 +1,7 @@
-// Principal.js
 import React from "react";
-import ModiNavbar from "./Navbar"; // Navbar
+import ModiNavbar from "./Navbar"; 
 import Cuerp from "./Cuerpo";
-import Footer from "./Footer"; // Footer
+import Footer from "./Footer"; 
 
 
 const Principal = () => {

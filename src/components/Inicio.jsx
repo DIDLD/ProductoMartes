@@ -1,6 +1,6 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../css/registro.css'; // Asegúrate de que el CSS esté bien importado
+import '../css/registro.css'; 
 import { Form, Button, Row, Col, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 

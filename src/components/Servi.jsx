@@ -4,7 +4,7 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 const Servi = () => {
   return (
     <Container className="mt-5">
-      {/* Título principal */}
+      {}
       <Row className="text-center mb-5">
         <Col>
           <h1 className="display-4 text-gold">Nuestros Servicios</h1>
@@ -14,7 +14,7 @@ const Servi = () => {
         </Col>
       </Row>
 
-      {/* Tarjetas de Servicios */}
+      {}
       <Row className="g-4">
         <Col md={4}>
           <Card className="shadow-lg text-center text-white" style={{ backgroundColor: "#222" }}>
